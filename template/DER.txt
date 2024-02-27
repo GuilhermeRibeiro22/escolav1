@@ -1,0 +1,41 @@
+Exemplo DER básco que pode ser usada na atividade
+
+
+Aluno:
+
+ID do Aluno (chave primária)
+Nome
+Endereço
+E-mail
+Telefone
+Outros detalhes pessoais
+Curso:
+
+ID do Curso (chave primária)
+Nome do Curso
+Descrição
+Duração
+Pré-requisitos
+Instrutor:
+
+ID do Instrutor (chave primária)
+Nome do Instrutor
+Especialização
+E-mail
+Telefone
+Outros detalhes pessoais
+Matrícula:
+
+ID da Matrícula (chave primária)
+ID do Aluno (chave estrangeira)
+ID do Curso (chave estrangeira)
+Data de Matrícula
+Status da Matrícula (por exemplo, ativa, concluída, cancelada)
+Turma:
+
+ID da Turma (chave primária)
+ID do Curso (chave estrangeira)
+ID do Instrutor (chave estrangeira)
+Horário
+Sala
+Capacidade máxima de alunos
