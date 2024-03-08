@@ -4,19 +4,18 @@ session_start();
     // if($_SERVER['REQUEST_METHOD'] == 'POST' and isset($_SESSION['dados'])){
         if($_SERVER['REQUEST_METHOD'] == 'POST'){
         // Importar a classe:
-        require_once('../classes/docente_class.php');
+        require_once('../classes/curso_class.php');
 
  
 
         // Instanciar um obj do tipo contato:
-        $c = new Docente();
+        $c = new Curso();
 
  
 
         // Definir os valores das suas propriedades:
-        $c->nome = $_POST['nomeDocente'];
-        $c->email = $_POST['emailDocente'];
-        $c->telefone = $_POST['telefoneDocente'];
+        $c->nome = $_POST['curso'];
+        $c->area = $_POST['area'];
 
  
 
@@ -24,7 +23,7 @@ session_start();
 
         try{
             $c->Inserir();
-        header('Location: ../view/cad_docente.php?msg=6');
+        
             exit();
 
  

@@ -71,156 +71,153 @@
 
       </div>
 
-      <!-- Formulário -->
-      <div class="row mt-5 ms-3">
+      <form action="http://localhost/escolav1/controller/cad_aluno.php" method="post">
+        <!-- Formulário -->
+        <div class="row mt-5 ms-3">
 
-        <div class="col-6">
+          <div class="col-6">
 
-          <div class="row">
-            <div class="col">
-              <h5>Nome Completo</h5>
+            <div class="row">
+              <div class="col">
+                <h5>Nome Completo</h5>
+              </div>
             </div>
-          </div>
 
-          <div class="row">
+            <div class="row">
 
-            <div class="col m-2">
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" id="nome" aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default" placeholder="Insira seu nome..">
+              <div class="col m-2">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" id="nome" name="nomeAluno" placeholder="Insira seu nome..">
+                </div>
+
               </div>
 
             </div>
 
-          </div>
-
-          <div class="row">
-            <div class="col">
-              <h5>E-mail</h5>
+            <div class="row">
+              <div class="col">
+                <h5>E-mail</h5>
+              </div>
             </div>
-          </div>
 
-          <div class="row">
+            <div class="row">
 
-            <div class="col m-2">
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" id="email" aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default" placeholder="Insira seu e-mail..">
+              <div class="col m-2">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" id="emailAluno" name="emailAluno"
+                    placeholder="Insira seu e-mail..">
+                </div>
+
               </div>
 
             </div>
 
-          </div>
-
-          <div class="row">
-            <div class="col">
-              <h5>Telefone</h5>
+            <div class="row">
+              <div class="col">
+                <h5>Telefone</h5>
+              </div>
             </div>
-          </div>
 
-          <div class="row">
+            <div class="row">
 
-            <div class="col m-2">
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" id="telefone" aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default" placeholder="Insira seu telefone..">
+              <div class="col m-2">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" id="telefoneAluno" name="telefoneAluno"
+                    placeholder="Insira seu telefone..">
+                </div>
+
               </div>
 
             </div>
 
-          </div>
-
-          <div class="row">
-            <div class="col">
-              <h5>Endereço</h5>
+            <div class="row">
+              <div class="col">
+                <h5>Endereço</h5>
+              </div>
             </div>
-          </div>
 
-          <div class="row">
+            <div class="row">
 
-            <div class="col-4 m-2">
-              <p>CEP</p>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" id="endereco" aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default" placeholder="Insira seu cep..">
+              <div class="col-4 m-2">
+                <p>CEP</p>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" id="cepAluno" name="cepAluno" placeholder="Insira seu cep..">
+                </div>
+
               </div>
 
-            </div>
+              <div class="col-4 m-2">
+                <p>Rua</p>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" id="ruaAluno" name="ruaAluno" placeholder="Insira sua rua..">
+                </div>
 
-            <div class="col-4 m-2">
-              <p>Rua</p>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control " aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default" placeholder="Insira sua rua..">
               </div>
 
+
+
             </div>
 
+            <div class="row">
 
+              <div class="col-4 m-2">
+                <p>Bairro</p>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" id="bairroAluno" name="bairroAluno"
+                    placeholder="Insira seu bairro..">
+                </div>
 
-          </div>
-
-          <div class="row">
-
-            <div class="col-4 m-2">
-              <p>Bairro</p>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control " aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default" placeholder="Insira seu bairro..">
               </div>
 
-            </div>
+              <div class="col-4 m-2">
+                <p>Cidade</p>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" id="cidadeAluno" name="cidadeAluno"
+                    placeholder="Insira sua cidade..">
+                </div>
 
-            <div class="col-4 m-2">
-              <p>Cidade</p>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control " aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default" placeholder="Insira sua cidade..">
               </div>
 
+
+
             </div>
 
+            <div class="row">
 
+              <div class="col-4 m-2">
+                <p>Estado</p>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" id="estadoAluno" name="estadoAluno"
+                    placeholder="Insira seu estado..">
+                </div>
 
-          </div>
-
-          <div class="row">
-
-            <div class="col-4 m-2">
-              <p>Estado</p>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control " aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default" placeholder="Insira seu estado..">
               </div>
 
-            </div>
+              <div class="col-4 m-2">
+                <p>País</p>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" id="paisAluno" name="paisAluno" placeholder="Insira seu país..">
+                </div>
 
-            <div class="col-4 m-2">
-              <p>País</p>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control " aria-label="Sizing example input"
-                  aria-describedby="inputGroup-sizing-default" placeholder="Insira seu país..">
               </div>
-
             </div>
-          </div>
 
-          <div class="row">
-            <div class="col-12">
-              <button type="button" class="btn btn-dark">Cadastrar</button>
+            <div class="row">
+              <div class="col-12">
+                <button type="submit" class="btn btn-dark">Cadastrar</button>
+              </div>
             </div>
-          </div>
-
-        </div>
-
-        <div class="col-6">
-          <img class="rounded-circle d-block" src="../assets/escola2.jpg" alt="" width="700px">
-        </div>
-
-      </div>
-
-
+      </form>
     </div>
+
+    <div class="col-6">
+      <img class="rounded-circle d-block" src="../assets/escola2.jpg" alt="" width="700px">
+    </div>
+
+  </div>
+
+
+  </div>
 
   </div>
 
